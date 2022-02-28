@@ -16,8 +16,10 @@ export default function Home() {
           ryus's about
           <code>pages/index.js</code>
              <form name="contact" method="POST" data-netlify="true">
-               <input name="name" type="text" value="" />
-               <input name="submit" type="submit" value="submit"/>
+               <input type="hidden" name="form-name" value="contact"/>
+
+               <label>Your Name:<input name="name" type="text" /></label>
+               <button type="submit">Send</button>
              </form>
         </p>
       </main>
