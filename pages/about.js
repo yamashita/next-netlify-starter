@@ -15,6 +15,10 @@ export default function Home() {
         <p className="description">
           ryus's about
           <code>pages/index.js</code>
+             <form name="contact" method="POST" data-netlify="true">
+               <input name="name" type="text" value="" />
+               <input name="submit" type="submit" value="submit"/>
+             </form>
         </p>
       </main>
 
